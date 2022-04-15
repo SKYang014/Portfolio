@@ -1,20 +1,199 @@
 <!-- Professional Portfolio -->
 
 <!-- Page layout -->
+
 <!DOCTYPE html>
 <html land="eng">
     <head>
         <meta charset="UTF-8" />
-        <title>Sarah</title>
+        <title>Cosy</title>
         <link rel="stylesheet" href="./asset/css/style.css" />
     </head>
+
+
+<body>
+
     <!-- Nav Bar -->
+    <header>
+        <h1>
+            <a href="./index.html"> Sarah Yang</a>
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <!-- Anchor element -->
+                    <a href="#about-me"> About Me </a>
+                </li>
+                <li>
+                    <a href="#spotlight"> Spotlight</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- Hero -->
 
+    <!-- commented out video hero, not working -->
+            <!-- <video autoplay muted loop id="myVideo">
+            <source src="./asset/video/seal.mp4" type="video/mp4" />
+        </video> -->
+
+    <section class="hero">
+
+    </section>
     <!-- About Me -->
 
-    <!-- Project Spotlight -->
+    <section id="about-me" class="intro">
+        <!-- about me photo and text -->
+        <div class="about-card">
+            <div class="display-flex">
+                <h2>
+                    About Me, Sarah Yang
+                </h2>
+            </div>
+            <!-- photo left -->
+            <div class="about-me-photo">
+                <img src="./asset/photo/sarah.jpg" alt="Sully, the guard dog for her in-law's neighbor's land." />
+            </div>
+            
+            <!-- about me text under photo -->
+            <div class="flex-rox">
+                <h4>
+                    Sacramento, CA
+                </h4>
+            </div>
+            <div>
+                <p>
+                    Stemmed from conservation biology, currently in finances, and coding. 
+                    <div>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore architecto reprehenderit itaque provident non ad modi beatae et animi! Itaque commodi, velit dolorum animi asperiores minus sed facilis voluptas saepe.
+                    </div>
+                </p>
+            </div>
+        </div>
+        <!-- about me photo slideshow, photo placeholder until i learn how to make this, right-->
+        <!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+        <div class="sully">
+            <img src="./asset/photo/sully.jpg" alt="Sully, the guard dog for her in-law's neighbor's land." />
+        </div>
+
+    </section>
+
+    <!-- Skills and Project Spotlight -->
+
+    <section id = spotlight class="projects">
+
+        <!-- intro to skills  -->
+        <article  id = project-intro class="project">
+            <h1>Projects</h1>
+        </article>
+
+        <!-- Run Buddy  -->
+        <article class="project primary-proj">
+            <img src="./asset/photo/runbuddy.JPG" alt="a notepad highlighting SEO benefits" class="float-left" />
+            <h2>Run Buddy</h2>
+            <p>
+                Run Buddy is a site created with SEO properties, CTA's, and lead generation in mind.
+            </p>
+        </article>
+
+        <!-- HTML  -->
+        <article  class="project">
+            <img src="./asset/photo/sproof.JPG" alt=""/>
+            <h2>Project 2</h2>
+            <p>
+                place holder
+            </p>
+        </article>
+
+        <!-- CSS  -->
+        <article class="project">
+            <img src="./asset/photo/sproof.JPG" alt=""/>
+            <h2>Project 3</h2>
+            <p>
+                placeholder            
+            </p>
+        </article>
+
+    </section>
+
+    <!-- Textbox that displays projects  -->
+    <section class="skills">
+        <h1>Skills</h1>
+        <div class="skill">
+            <h3>HTML and CSS</h3>
+            <img src="./assets/images/lead-generation.png" />
+            <p>
+                Run Buddy is a site created with SEO properties, CTA's, and lead generation in mind.
+            </p>
+        </div>
+
+        <div class="skill">
+            <h3>placeholder project</h3>
+            <img src="./assets/images/brand-awareness.png" />
+            <p>
+                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+            </p>
+        </div>
+
+        <div class="skill">
+            <h3>placeholder project</h3>
+            <img src="./assets/images/cost-management.png"></img>
+            <p>
+                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+            </p>
+        </div>
+    </section>
 
     <!-- Contact Me -->
+
+        <section id="contact-me" class="contact">
+
+        <div class="contact-info">
+            <div>
+                <h3>Sarah Yang</h3>
+                <p>
+                    Want to connect, or have any questions?
+                    <br />
+                    Let me know and I'll be happy to talk to you!
+                </p>
+                <address>
+                    55 main street <br/>
+                    Some Town, CA <br/>
+                    12345<br/>
+                    P: 555.RUN.BUDZ <br/>
+                    E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+                </address>
+            </div>
+        </div>
+        <!-- send an email cta -->
+        <div class="contact-form">
+            <h3>Contact Me</h3>
+            <form>
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" placeholder="Your Name" />
+            
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" placeholder="Message"></textarea>
+            
+                <button type="submit">Submit</button>
+                </form>
+        </div>
+        <!-- social media div -->
+        <div class="social-media">
+            <ul> Find me at:
+                <li>
+                    <a href="https://www.instagram.com/sky4ng/">📸 Instagram</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/sarah-yang-3b4494132/">🤝 LinkedIn</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+</body>
 </html>
