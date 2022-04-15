@@ -14,7 +14,7 @@
 }
 
 body {
-    color: var(--tertiary-color);
+    background-color: var(--primary-color);
     font-family: Helvetica, Arial, sans-serif;
     height: 100%;
 }
@@ -174,7 +174,7 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     border-style: solid;
     border-width: 3px;
-    border-color: var(--secondary-color);
+    border-color: var(--quarternary-color);
     width: 40%;
     margin: 3.5%;
     box-shadow: 0 0 10px rgb(0 0 0 / 50%);
@@ -193,12 +193,12 @@ header nav ul li a:hover {
     padding: 10px;
     height: 200px;
     width: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--secondary-color);
     color: var(--primary-color);
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    overflow: auto;
 }
 
 .project h2 {
@@ -206,10 +206,23 @@ header nav ul li a:hover {
 }
 
 .primary-proj {
-    height: 250px;
+    height: 300px;
     display: flex;
-    /* justify-content: flex-start; */
-    /* align-items: flex-start; */
+}
+
+.primary-proj img {
+    background-color: var(--tertiary-color);
+    padding: 10px;
+    color: var(--secondary-color);
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--quarternary-color);
+    width: 40%;
+    margin: 3.5%;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
 }
 
 #project-intro{
@@ -231,12 +244,28 @@ header nav ul li a:hover {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: var(--quarternary-color);
+    color: var(--secondary-color);
+    overflow: auto;
 }
 
 .skills h1 {
     margin: 10px;
+}
+
+.skills img {
+    background-color: var(--tertiary-color);
+    padding: 10px;
+    color: var(--secondary-color);
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--secondary-color);
+    width: 40%;
+    margin: 3.5%;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
 }
 /* contact me */
 
@@ -256,7 +285,7 @@ header nav ul li a:hover {
 }
 
 .secondary-border {
-    border-color: var(--secondary-color);
+    border-color: var(--quarternary-color);
 }
 
 .contact {
@@ -290,11 +319,19 @@ header nav ul li a:hover {
 .contact-form button {
     width: 100%;
     border: none;
-    background: var(--primary-color);
+    background: var(--quarternary-color);
     color: var(--secondary-color);
     text-align: center;
     padding: 15px;
     font-size: 16px;
+    border-radius: 15px;
+}
+
+.contact div{
+    background-color: var(--secondary-color);
+    margin: 1px;
+    padding: 25px;
+    color: var(--primary-color);
     border-radius: 15px;
 }
 /* optimization */
