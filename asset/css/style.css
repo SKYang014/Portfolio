@@ -197,7 +197,7 @@ header nav ul li a:hover {
     color: var(--primary-color);
     display: flex;
     align-items: flex-start;
-    flex-direction: column;
+    /* flex-direction: column; */
     overflow: auto;
 }
 
